@@ -1,0 +1,120 @@
+.body{
+    margin-top: 7%;
+}
+
+.box1{
+    
+    height: auto;
+}
+
+.strip{
+    background-color: #282828;
+}
+.header{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin:0 40px 0 25px;
+    
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin:0 40px 0 25px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    
+}
+.name{
+    width: 30%;
+   
+}
+.qty{
+    
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding:8px;
+    margin-right: 100px;
+}
+.minus{
+    cursor: pointer;
+    position: absolute;
+    right: 40%;
+    bottom: 24%;
+    color: #fff;
+    padding: 0 8px;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: rgba(255, 0, 0, 0.842);
+}
+.minus:hover{
+    opacity: 0.7;
+}
+
+.plus{
+    cursor: pointer;
+    position: absolute;
+    right: 25%;
+    bottom: 24%;
+    color: #fff;
+    padding: 0 5px;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: rgba(21, 189, 99, 0.808);
+}
+
+.plus:hover{
+    opacity: 0.7;
+}
+
+.price{
+    background-color: #ccbebe2f;
+    
+}
+
+.endPrice{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.discount{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.endTotal{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 25px 0;
+    margin: 10px;
+}
+
+.del{
+    position: absolute;
+    left: 10%;
+}
+.del:hover{
+   cursor: pointer;
+    color: red;
+}
+.checkout{
+    text-align: center;
+    padding: 10px ;
+    background-color: #282828;
+    color:#fff ;
+}
+.checkout:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.messege{
+    text-align: center;
+    line-height: 2;
+}
+.messege a{
+    text-decoration:  none;
+    color :rgba(49, 49, 160, 0.561)
+}
